@@ -24,6 +24,7 @@ jobs:
         uses: timgchile/mongodb-github-action@1.7.4
         with:
           mongodb-version: ${{ matrix.mongodb-version}}
+      - run: npm install
       - run: npm run install-all
       - run: npm run build --prefix client
       - run: npm test
