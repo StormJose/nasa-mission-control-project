@@ -15,7 +15,7 @@ const mongoConnect = async function () {
 };
 
 const mongoDisconnect = async function () {
-  await mongoose.disconnect();LL
+  await mongoose.disconnect();
 };
 
 module.exports = {
