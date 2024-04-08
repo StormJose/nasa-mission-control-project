@@ -1,5 +1,6 @@
 # nasa-mission-control-project
 
+A NASA Dashboard for scheduling launches and accessing official SpaceX launches.
 
 ## Instalation
 
