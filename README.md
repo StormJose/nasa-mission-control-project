@@ -19,7 +19,7 @@ Install all dependencies:
   npm run install-all
 ```
 
-The, run:
+Then, run:
 
  ```sh
   npm run server
